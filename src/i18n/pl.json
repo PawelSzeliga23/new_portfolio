@@ -117,7 +117,8 @@
           { "id": "docker", "label": "Docker" },
           { "id": "unittesting", "label": "Testy jednostkowe" },
           { "id": "technicaldocumentation", "label": "Dokumentacja techniczna" },
-          { "id": "agileteamwork", "label": "Praca zespołowa w Agile" }
+          { "id": "agileteamwork", "label": "Praca zespołowa w Agile" },
+          { "id": "claude", "label": "Claude / programowanie wspomagane AI" }
         ]
       }
     ],
@@ -151,7 +152,8 @@
       "docker": "Narzędzie, które pakuje aplikację razem ze wszystkim, czego potrzebuje do działania, dzięki czemu zachowuje się identycznie na każdym komputerze — rozwiązuje klasyczny problem „u mnie działa”.",
       "unittesting": "Pisanie małych, automatycznych testów sprawdzających, czy poszczególne fragmenty kodu działają poprawnie — wychwytywanie błędów zanim dotrą do prawdziwego użytkownika.",
       "technicaldocumentation": "Pisanie jasnych wyjaśnień, jak działa system, aby inni programiści (albo ja sam w przyszłości) mogli go zrozumieć i utrzymać bez odtwarzania wszystkiego od nowa.",
-      "agileteamwork": "Sposób pracy zespołowej, który dzieli duże projekty na małe, zarządzalne kawałki z regularnymi spotkaniami — dzięki temu postęp pozostaje widoczny, a plany mogą się elastycznie zmieniać."
+      "agileteamwork": "Sposób pracy zespołowej, który dzieli duże projekty na małe, zarządzalne kawałki z regularnymi spotkaniami — dzięki temu postęp pozostaje widoczny, a plany mogą się elastycznie zmieniać.",
+      "claude": "Asystent AI od Anthropic, którego używam jako pair-programmera — do planowania zmian, pisania i przeglądu kodu oraz szybszej pracy bez utraty rozumienia tego, co faktycznie dzieje się pod maską. Ta strona również powstała we współpracy z nim."
     }
   },
   "projects": {

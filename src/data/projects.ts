@@ -22,12 +22,12 @@ export const projects: Project[] = [
     descEn: "This site — a single-page portfolio built to showcase projects, skills and experience with multilingual support and dark/light theming.",
     descPl: "Ta strona — portfolio typu single-page, prezentujące projekty, umiejętności i doświadczenie, z obsługą wielu języków i motywem jasny/ciemny.",
     longDescEn:
-      "Built from scratch as a single-page application instead of a traditional multi-route site, so the whole experience — hero, about, skills, projects, contact — lives on one continuously scrolling page with animated section reveals.\n\nEvery skill tag opens a plain-English explanation aimed at non-technical readers, and a small interactive 3D cube in the hero can be dragged and spun by hand. Fully bilingual (EN/PL) with a persisted dark/light theme.",
+      "Built from scratch as a single-page application instead of a traditional multi-route site, so the whole experience — hero, about, skills, projects, contact — lives on one continuously scrolling page with animated section reveals.\n\nEvery skill tag opens a plain-English explanation aimed at non-technical readers, and a small interactive 3D cube in the hero can be dragged and spun by hand. Fully bilingual (EN/PL) with a persisted dark/light theme. Built working with Claude as a pair-programmer throughout — planning components, writing code, and iterating on interaction details like the cube's drag physics.",
     longDescPl:
-      "Zbudowana od zera jako aplikacja jednostronicowa zamiast tradycyjnej strony z wieloma podstronami — całe doświadczenie (hero, o mnie, umiejętności, projekty, kontakt) mieści się na jednej, ciągle przewijanej stronie z animowanymi sekcjami.\n\nKażdy tag umiejętności otwiera proste wyjaśnienie skierowane do osób nietechnicznych, a mała interaktywna kostka 3D w sekcji hero daje się przeciągać i obracać ręką. W pełni dwujęzyczna (EN/PL), z zapamiętywanym motywem jasny/ciemny.",
+      "Zbudowana od zera jako aplikacja jednostronicowa zamiast tradycyjnej strony z wieloma podstronami — całe doświadczenie (hero, o mnie, umiejętności, projekty, kontakt) mieści się na jednej, ciągle przewijanej stronie z animowanymi sekcjami.\n\nKażdy tag umiejętności otwiera proste wyjaśnienie skierowane do osób nietechnicznych, a mała interaktywna kostka 3D w sekcji hero daje się przeciągać i obracać ręką. W pełni dwujęzyczna (EN/PL), z zapamiętywanym motywem jasny/ciemny. Zbudowana we współpracy z Claude jako pair-programmerem — od planowania komponentów, przez pisanie kodu, po dopracowywanie detali interakcji, jak fizyka przeciągania kostki.",
     category: "web",
-    tech: ["React", "TypeScript", "Tailwind CSS", "Framer Motion"],
-    github: "https://github.com/PawelSzeliga23/portfolioApp",
+    tech: ["React", "TypeScript", "Tailwind CSS", "Framer Motion", "Claude"],
+    github: "https://github.com/PawelSzeliga23/new_portfolio",
     featured: true,
   },
   {

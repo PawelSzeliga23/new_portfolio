@@ -117,7 +117,8 @@
           { "id": "docker", "label": "Docker" },
           { "id": "unittesting", "label": "Unit testing" },
           { "id": "technicaldocumentation", "label": "Technical documentation" },
-          { "id": "agileteamwork", "label": "Agile teamwork" }
+          { "id": "agileteamwork", "label": "Agile teamwork" },
+          { "id": "claude", "label": "Claude / AI-assisted development" }
         ]
       }
     ],
@@ -151,7 +152,8 @@
       "docker": "A tool that packages an application together with everything it needs to run, so it behaves identically on any computer — solving the classic 'it works on my machine' problem.",
       "unittesting": "Writing small, automated checks that verify individual pieces of code work correctly — catching bugs early, before they ever reach a real user.",
       "technicaldocumentation": "Writing clear explanations of how a system works, so other developers (or future me) can understand and maintain it without reverse-engineering everything.",
-      "agileteamwork": "A way of working in a team that breaks big projects into small, manageable chunks with regular check-ins — so progress stays visible and plans can adapt as things change."
+      "agileteamwork": "A way of working in a team that breaks big projects into small, manageable chunks with regular check-ins — so progress stays visible and plans can adapt as things change.",
+      "claude": "Anthropic's AI coding assistant, which I use as a pair-programmer for planning changes, writing and reviewing code, and moving faster without giving up understanding of what's actually happening under the hood. This site itself was built working with it."
     }
   },
   "projects": {
