@@ -1,0 +1,214 @@
+{
+  "meta": {
+    "langName": "EN"
+  },
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "skills": "Skills",
+    "experience": "Experience",
+    "education": "Education",
+    "projects": "Projects",
+    "contact": "Contact"
+  },
+  "hero": {
+    "kicker": "Software Developer",
+    "name": "Paweł Szeliga",
+    "roles": ["Full-stack developer", "React & TypeScript", ".NET & Python", "Problem solver"],
+    "tagline": "I build fast, well-structured applications — from React interfaces down to the .NET and Python backends behind them — and I like figuring out how the pieces fit together.",
+    "location": "Warsaw, Poland — open to junior / graduate developer roles",
+    "ctaPrimary": "View Projects",
+    "ctaSecondary": "Get in Touch",
+    "scroll": "Scroll"
+  },
+  "about": {
+    "kicker": "01 — About",
+    "title": "A developer who ships, not just studies",
+    "p1": "I'm a Computer Science graduate who recently spent six months as a software intern at Veolia CUW, building automations, scraping modules and a full-stack app for real client-facing projects — not classroom exercises. That, plus 12+ personal and academic builds, is where most of what I know actually came from.",
+    "p2": "I move comfortably between the frontend and backend: React and TypeScript on one side, C#/.NET, Python and Java on the other, with relational databases underneath. I care about code that the next person — often future me — can actually read.",
+    "highlights": [
+      { "label": "Based in", "value": "Warsaw, Poland" },
+      { "label": "Degree", "value": "B.Sc. Computer Science" },
+      { "label": "Shipped", "value": "12+ projects" },
+      { "label": "Languages", "value": "Polish (native), English (fluent)" }
+    ]
+  },
+  "experience": {
+    "kicker": "02 — Experience",
+    "title": "Where I've put it to work",
+    "items": [
+      {
+        "role": "Software Development Intern",
+        "org": "Veolia CUW — ORID (Robotization & Digitalization)",
+        "period": "2026 — 6-month internship",
+        "description": "Built process automations, web-scraping modules and an operational app in AppSheet, and shipped a full-stack application — all on the team's real client-facing projects, not sandboxed exercises. First taste of production code, code review, and deadlines that affect actual users."
+      },
+      {
+        "role": "Audio-Video Technician",
+        "org": "JSK",
+        "period": "3 years",
+        "description": "Set up and operated live AV systems for conferences, troubleshooting hardware and software issues in real time under a hard deadline — no room for “it works on my machine.”"
+      },
+      {
+        "role": "Academic & Independent Software Projects",
+        "org": "Solo and team-built",
+        "period": "2022 — 2026",
+        "description": "Designed and shipped 12+ projects spanning full-stack web apps, a REST API in ASP.NET Core, a machine-learning image classifier, and a neural network built from scratch. Worked in small teams using Git, task tracking, and code review."
+      }
+    ]
+  },
+  "skills": {
+    "kicker": "03 — Skills",
+    "title": "Tools I reach for",
+    "tapHint": "Tap a skill for a plain-English explanation",
+    "groups": [
+      {
+        "title": "Languages",
+        "items": [
+          { "id": "typescript", "label": "TypeScript" },
+          { "id": "javascript", "label": "JavaScript" },
+          { "id": "python", "label": "Python" },
+          { "id": "java", "label": "Java" },
+          { "id": "csharp", "label": "C#" },
+          { "id": "cpp", "label": "C++" },
+          { "id": "sql", "label": "SQL" }
+        ]
+      },
+      {
+        "title": "Frontend",
+        "items": [
+          { "id": "react", "label": "React" },
+          { "id": "html5", "label": "HTML5" },
+          { "id": "css3", "label": "CSS3" },
+          { "id": "tailwindcss", "label": "Tailwind CSS" },
+          { "id": "framermotion", "label": "Framer Motion" },
+          { "id": "figma", "label": "Figma" }
+        ]
+      },
+      {
+        "title": "Backend & Data",
+        "items": [
+          { "id": "aspnetcore", "label": "ASP.NET Core" },
+          { "id": "nodejsexpress", "label": "Node.js / Express" },
+          { "id": "restapis", "label": "REST APIs" },
+          { "id": "postgresql", "label": "PostgreSQL" },
+          { "id": "mssqlserver", "label": "MS SQL Server" },
+          { "id": "redis", "label": "Redis" },
+          { "id": "databasedesign", "label": "Database design" }
+        ]
+      },
+      {
+        "title": "No-Code / Low-Code",
+        "items": [{ "id": "appsheet", "label": "AppSheet" }]
+      },
+      {
+        "title": "Foundations",
+        "items": [
+          { "id": "oopdesignpatterns", "label": "OOP & design patterns" },
+          { "id": "datastructuresalgorithms", "label": "Data structures & algorithms" },
+          { "id": "osnetworks", "label": "Operating systems & networks" },
+          { "id": "discretemathlogic", "label": "Discrete math & logic" }
+        ]
+      },
+      {
+        "title": "Practice",
+        "items": [
+          { "id": "git", "label": "Git" },
+          { "id": "docker", "label": "Docker" },
+          { "id": "unittesting", "label": "Unit testing" },
+          { "id": "technicaldocumentation", "label": "Technical documentation" },
+          { "id": "agileteamwork", "label": "Agile teamwork" }
+        ]
+      }
+    ],
+    "descriptions": {
+      "typescript": "A version of JavaScript that adds safety checks before an app even runs, catching typos and mistakes early. It's what most modern web interfaces — including this site — are built with.",
+      "javascript": "The core programming language that makes websites interactive — the thing that responds when you click a button or scroll the page. It runs in every web browser.",
+      "python": "A widely-used, readable programming language popular for automation, data analysis and machine learning. I use it for scripting, AI/ML projects and backend work.",
+      "java": "A mature, widely-used programming language known for building reliable, large-scale applications. Common in enterprise software and Android apps.",
+      "csharp": "Microsoft's programming language for building backend systems and enterprise applications. I use it together with the .NET framework.",
+      "cpp": "A fast, low-level programming language used when performance really matters — games, simulations, systems software.",
+      "sql": "The standard language for asking questions of a database — 'find me all customers from Warsaw,' for example. Nearly every app with stored data uses it somewhere.",
+      "react": "A popular toolkit (by Meta/Facebook) for building the parts of a website you see and interact with, out of reusable, snap-together pieces.",
+      "html5": "The basic building blocks of every web page — the structure and content, like headings, paragraphs and images. It's the skeleton every website is built on.",
+      "css3": "The styling language that makes web pages look good — colors, spacing, layout, animations. If HTML is the skeleton, this is the skin and clothes.",
+      "tailwindcss": "A modern toolkit for styling websites quickly and consistently, without writing custom styling code from scratch for every element.",
+      "framermotion": "A library for adding smooth animations and transitions to a website — the sliding, fading and moving effects you see as you scroll this page.",
+      "figma": "A design tool for planning what an app or website should look like before it's built — like a blueprint, but interactive.",
+      "aspnetcore": "Microsoft's framework for building the 'server side' of an application — the part that handles logins, processes data and talks to a database, invisible to the end user.",
+      "nodejsexpress": "A way of running JavaScript on the server instead of just in the browser, used to build the backend of an app — the part that stores and serves data.",
+      "restapis": "A standard way for two pieces of software to talk to each other — for example, how a mobile app asks a server for your account information.",
+      "postgresql": "A free, powerful database system used to store an application's data reliably — user accounts, orders, messages, anything that needs to be saved and looked up later.",
+      "mssqlserver": "Microsoft's database system, commonly used in businesses to store and manage large amounts of data securely.",
+      "redis": "An extremely fast, temporary storage system used to speed up applications — for example, remembering a logged-in user so the app doesn't have to check the database on every click.",
+      "databasedesign": "Planning how an application's information should be organized and connected — customers, orders, products — so it stays fast, accurate and easy to work with as it grows.",
+      "appsheet": "A no-code tool by Google for building working business apps — forms, trackers, dashboards — by configuring a spreadsheet instead of writing traditional code. Great for automating everyday business processes quickly.",
+      "oopdesignpatterns": "A way of organizing code around real-world concepts (like 'Customer' or 'Order') and proven, reusable solutions to common problems — it makes software easier to build correctly and maintain later.",
+      "datastructuresalgorithms": "The fundamental techniques for organizing information and solving problems efficiently — the difference between a program that handles a million users smoothly and one that grinds to a halt.",
+      "osnetworks": "Understanding how computers manage their resources internally, and how they communicate with each other over the internet — the plumbing beneath every app.",
+      "discretemathlogic": "The mathematical reasoning that underpins computer science — logical thinking, structured problem-solving, and the theory behind how algorithms work.",
+      "git": "A tool that tracks every change made to a project's code over time, so nothing is ever lost and multiple people can safely work on the same project together.",
+      "docker": "A tool that packages an application together with everything it needs to run, so it behaves identically on any computer — solving the classic 'it works on my machine' problem.",
+      "unittesting": "Writing small, automated checks that verify individual pieces of code work correctly — catching bugs early, before they ever reach a real user.",
+      "technicaldocumentation": "Writing clear explanations of how a system works, so other developers (or future me) can understand and maintain it without reverse-engineering everything.",
+      "agileteamwork": "A way of working in a team that breaks big projects into small, manageable chunks with regular check-ins — so progress stays visible and plans can adapt as things change."
+    }
+  },
+  "projects": {
+    "kicker": "04 — Projects",
+    "title": "Selected work",
+    "subtitle": "A mix of full-stack apps, games, and machine learning — most of it built during my degree.",
+    "viewCode": "View code",
+    "frontend": "Frontend",
+    "backend": "Backend",
+    "inProgress": "In progress",
+    "close": "Close",
+    "categories": {
+      "all": "All",
+      "web": "Web",
+      "ml": "Machine Learning",
+      "game": "Games",
+      "systems": "Systems"
+    }
+  },
+  "education": {
+    "kicker": "05 — Education",
+    "title": "Academic background",
+    "items": [
+      {
+        "degree": "Applied Computer Science (Informatyka Stosowana)",
+        "school": "Warsaw University of Technology (Politechnika Warszawska)",
+        "period": "2026 — Present",
+        "description": "Continuing my studies with a focus on applying computer science to real engineering problems, building on the software fundamentals from my bachelor's degree."
+      },
+      {
+        "degree": "B.Sc. in Computer Science",
+        "school": "Polish-Japanese Academy of Information Technology, Warsaw",
+        "period": "2022 — 2026",
+        "description": "Coursework covered object-oriented design, algorithms and data structures, relational databases, operating systems, computer networks, and discrete mathematics. Team projects trained me to design, document, and present software the way a real engineering team would."
+      }
+    ]
+  },
+  "contact": {
+    "kicker": "06 — Contact",
+    "title": "Let's build something",
+    "subtitle": "I'm looking for a junior or graduate developer role where I can keep learning fast. If that's a fit, I'd love to hear from you.",
+    "emailLabel": "Email",
+    "githubLabel": "GitHub",
+    "linkedinLabel": "LinkedIn",
+    "form": {
+      "name": "Name",
+      "email": "Email",
+      "message": "Message",
+      "send": "Send message",
+      "sending": "Sending...",
+      "success": "Thanks — I'll get back to you soon.",
+      "error": "Something went wrong. Please email me directly."
+    }
+  },
+  "footer": {
+    "tagline": "Designed & built with React, TypeScript and Framer Motion.",
+    "rights": "All rights reserved.",
+    "backToTop": "Back to top"
+  }
+}

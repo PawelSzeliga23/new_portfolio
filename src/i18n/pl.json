@@ -1,0 +1,214 @@
+{
+  "meta": {
+    "langName": "PL"
+  },
+  "nav": {
+    "home": "Start",
+    "about": "O mnie",
+    "skills": "Umiejętności",
+    "experience": "Doświadczenie",
+    "education": "Edukacja",
+    "projects": "Projekty",
+    "contact": "Kontakt"
+  },
+  "hero": {
+    "kicker": "Programista",
+    "name": "Paweł Szeliga",
+    "roles": ["Full-stack developer", "React i TypeScript", ".NET i Python", "Rozwiązywanie problemów"],
+    "tagline": "Tworzę szybkie, dobrze zaprojektowane aplikacje — od interfejsów w React po backend w .NET i Pythonie — i lubię odkrywać, jak wszystkie elementy współgrają ze sobą.",
+    "location": "Warszawa, Polska — otwarty na role junior / graduate developer",
+    "ctaPrimary": "Zobacz projekty",
+    "ctaSecondary": "Skontaktuj się",
+    "scroll": "Przewiń"
+  },
+  "about": {
+    "kicker": "01 — O mnie",
+    "title": "Programista, który dowozi, a nie tylko się uczy",
+    "p1": "Jestem absolwentem informatyki, który niedawno spędził sześć miesięcy jako praktykant w Veolia CUW, budując automatyzacje, moduły do web scrapingu oraz aplikację full-stack w ramach realnych projektów dla klientów — nie ćwiczeń szkolnych. To, obok ponad 12 własnych i akademickich projektów, jest źródłem większości tego, co faktycznie umiem.",
+    "p2": "Swobodnie poruszam się między frontendem a backendem: React i TypeScript z jednej strony, C#/.NET, Python i Java z drugiej, a pod spodem relacyjne bazy danych. Zależy mi na kodzie, który następna osoba — często ja sam w przyszłości — będzie w stanie po prostu przeczytać.",
+    "highlights": [
+      { "label": "Lokalizacja", "value": "Warszawa, Polska" },
+      { "label": "Wykształcenie", "value": "Inżynier informatyki" },
+      { "label": "Zrealizowane", "value": "12+ projektów" },
+      { "label": "Języki", "value": "Polski (ojczysty), angielski (biegły)" }
+    ]
+  },
+  "experience": {
+    "kicker": "02 — Doświadczenie",
+    "title": "Gdzie wykorzystałem te umiejętności",
+    "items": [
+      {
+        "role": "Praktykant / Software Development Intern",
+        "org": "Veolia CUW — ORID (Obszar Robotyzacji i Digitalizacji)",
+        "period": "2026 — staż 6-miesięczny",
+        "description": "Budowałem automatyzacje procesów, moduły do web scrapingu oraz operacyjną aplikację w AppSheet, a także stworzyłem aplikację full-stack — wszystko w ramach realnych projektów zespołu dla klientów zewnętrznych, nie ćwiczeń szkoleniowych. Pierwsze zetknięcie z kodem produkcyjnym, code review i terminami, które mają wpływ na prawdziwych użytkowników."
+      },
+      {
+        "role": "Technik audio-wideo",
+        "org": "JSK",
+        "period": "3 lata",
+        "description": "Konfigurowałem i obsługiwałem systemy AV na żywo podczas konferencji, rozwiązując problemy sprzętowe i programowe w czasie rzeczywistym, pod presją czasu — bez miejsca na „u mnie działa”."
+      },
+      {
+        "role": "Projekty akademickie i własne",
+        "org": "Samodzielnie i zespołowo",
+        "period": "2022 — 2026",
+        "description": "Zaprojektowałem i zrealizowałem ponad 12 projektów — od pełnostackowych aplikacji webowych, przez REST API w ASP.NET Core, po klasyfikator obrazów oparty na uczeniu maszynowym i sieć neuronową napisaną od podstaw. Pracowałem w małych zespołach z użyciem Gita, zarządzania zadaniami i code review."
+      }
+    ]
+  },
+  "skills": {
+    "kicker": "03 — Umiejętności",
+    "title": "Narzędzia, po które sięgam",
+    "tapHint": "Kliknij umiejętność, aby zobaczyć proste wyjaśnienie",
+    "groups": [
+      {
+        "title": "Języki",
+        "items": [
+          { "id": "typescript", "label": "TypeScript" },
+          { "id": "javascript", "label": "JavaScript" },
+          { "id": "python", "label": "Python" },
+          { "id": "java", "label": "Java" },
+          { "id": "csharp", "label": "C#" },
+          { "id": "cpp", "label": "C++" },
+          { "id": "sql", "label": "SQL" }
+        ]
+      },
+      {
+        "title": "Frontend",
+        "items": [
+          { "id": "react", "label": "React" },
+          { "id": "html5", "label": "HTML5" },
+          { "id": "css3", "label": "CSS3" },
+          { "id": "tailwindcss", "label": "Tailwind CSS" },
+          { "id": "framermotion", "label": "Framer Motion" },
+          { "id": "figma", "label": "Figma" }
+        ]
+      },
+      {
+        "title": "Backend i dane",
+        "items": [
+          { "id": "aspnetcore", "label": "ASP.NET Core" },
+          { "id": "nodejsexpress", "label": "Node.js / Express" },
+          { "id": "restapis", "label": "REST API" },
+          { "id": "postgresql", "label": "PostgreSQL" },
+          { "id": "mssqlserver", "label": "MS SQL Server" },
+          { "id": "redis", "label": "Redis" },
+          { "id": "databasedesign", "label": "Projektowanie baz danych" }
+        ]
+      },
+      {
+        "title": "No-code / Low-code",
+        "items": [{ "id": "appsheet", "label": "AppSheet" }]
+      },
+      {
+        "title": "Podstawy",
+        "items": [
+          { "id": "oopdesignpatterns", "label": "OOP i wzorce projektowe" },
+          { "id": "datastructuresalgorithms", "label": "Algorytmy i struktury danych" },
+          { "id": "osnetworks", "label": "Systemy operacyjne i sieci" },
+          { "id": "discretemathlogic", "label": "Matematyka dyskretna i logika" }
+        ]
+      },
+      {
+        "title": "Warsztat",
+        "items": [
+          { "id": "git", "label": "Git" },
+          { "id": "docker", "label": "Docker" },
+          { "id": "unittesting", "label": "Testy jednostkowe" },
+          { "id": "technicaldocumentation", "label": "Dokumentacja techniczna" },
+          { "id": "agileteamwork", "label": "Praca zespołowa w Agile" }
+        ]
+      }
+    ],
+    "descriptions": {
+      "typescript": "Wersja JavaScriptu, która dodaje kontrolę błędów jeszcze przed uruchomieniem aplikacji, wychwytując literówki i pomyłki. To w nim powstaje większość nowoczesnych interfejsów webowych — w tym ta strona.",
+      "javascript": "Podstawowy język programowania, który sprawia, że strony internetowe są interaktywne — to on reaguje, gdy klikniesz przycisk albo przewiniesz stronę. Działa w każdej przeglądarce.",
+      "python": "Popularny, czytelny język programowania, często wykorzystywany do automatyzacji, analizy danych i uczenia maszynowego. Używam go do skryptów, projektów AI/ML oraz backendu.",
+      "java": "Dojrzały, szeroko stosowany język programowania, znany z budowania niezawodnych, dużych aplikacji. Powszechny w oprogramowaniu korporacyjnym i aplikacjach na Androida.",
+      "csharp": "Język programowania Microsoftu do budowania systemów backendowych i aplikacji korporacyjnych. Używam go razem z frameworkiem .NET.",
+      "cpp": "Szybki, niskopoziomowy język programowania używany tam, gdzie liczy się wydajność — gry, symulacje, oprogramowanie systemowe.",
+      "sql": "Standardowy język do zadawania pytań bazie danych — na przykład „znajdź wszystkich klientów z Warszawy”. Niemal każda aplikacja przechowująca dane używa go w jakiejś formie.",
+      "react": "Popularne narzędzie (od Meta/Facebooka) do budowania tej części strony, którą widzisz i z którą wchodzisz w interakcję, z gotowych, wielokrotnego użytku elementów.",
+      "html5": "Podstawowe elementy budulcowe każdej strony internetowej — struktura i treść, jak nagłówki, akapity czy obrazy. To szkielet, na którym opiera się każda witryna.",
+      "css3": "Język stylowania, który sprawia, że strony wyglądają dobrze — kolory, odstępy, układ, animacje. Jeśli HTML to szkielet, to on jest skórą i ubraniem.",
+      "tailwindcss": "Nowoczesne narzędzie do szybkiego i spójnego stylowania stron, bez pisania własnego kodu stylującego od zera dla każdego elementu.",
+      "framermotion": "Biblioteka do dodawania płynnych animacji i przejść na stronie — te wszystkie efekty przesuwania, pojawiania się i ruchu, które widać podczas przewijania tej strony.",
+      "figma": "Narzędzie do projektowania, jak ma wyglądać aplikacja lub strona, zanim zostanie zbudowana — coś jak plan budowlany, tylko interaktywny.",
+      "aspnetcore": "Framework Microsoftu do budowania „strony serwerowej” aplikacji — części, która obsługuje logowanie, przetwarza dane i komunikuje się z bazą danych, niewidocznej dla użytkownika końcowego.",
+      "nodejsexpress": "Sposób na uruchamianie JavaScriptu po stronie serwera, a nie tylko w przeglądarce — używany do budowania backendu aplikacji, czyli części przechowującej i udostępniającej dane.",
+      "restapis": "Standardowy sposób komunikacji między dwoma programami — na przykład to, jak aplikacja mobilna pyta serwer o dane Twojego konta.",
+      "postgresql": "Darmowy, zaawansowany system baz danych, używany do niezawodnego przechowywania danych aplikacji — kont użytkowników, zamówień, wiadomości — wszystkiego, co trzeba zapisać i później odnaleźć.",
+      "mssqlserver": "System bazy danych Microsoftu, powszechnie używany w firmach do bezpiecznego przechowywania i zarządzania dużymi ilościami danych.",
+      "redis": "Bardzo szybki, tymczasowy system przechowywania danych, używany do przyspieszania aplikacji — na przykład zapamiętywania zalogowanego użytkownika, żeby aplikacja nie musiała za każdym razem sprawdzać bazy danych.",
+      "databasedesign": "Planowanie, jak informacje w aplikacji powinny być zorganizowane i powiązane ze sobą — klienci, zamówienia, produkty — tak, aby system pozostawał szybki, dokładny i łatwy w rozwoju.",
+      "appsheet": "Narzędzie no-code od Google do budowania działających aplikacji biznesowych — formularzy, trackerów, dashboardów — poprzez konfigurację arkusza kalkulacyjnego zamiast pisania tradycyjnego kodu. Świetne do szybkiej automatyzacji codziennych procesów biznesowych.",
+      "oopdesignpatterns": "Sposób organizowania kodu wokół rzeczywistych pojęć (jak „Klient” czy „Zamówienie”) oraz sprawdzonych, wielokrotnie używanych rozwiązań typowych problemów programistycznych — dzięki temu oprogramowanie łatwiej poprawnie zbudować i później utrzymać.",
+      "datastructuresalgorithms": "Podstawowe techniki organizowania informacji i efektywnego rozwiązywania problemów — różnica między programem, który płynnie obsługuje milion użytkowników, a takim, który się zacina.",
+      "osnetworks": "Zrozumienie tego, jak komputery zarządzają swoimi zasobami wewnętrznie oraz jak komunikują się ze sobą przez internet — instalacja, na której opiera się każda aplikacja.",
+      "discretemathlogic": "Matematyczne rozumowanie leżące u podstaw informatyki — logiczne myślenie, uporządkowane rozwiązywanie problemów oraz teoria stojąca za działaniem algorytmów.",
+      "git": "Narzędzie, które śledzi każdą zmianę w kodzie projektu na przestrzeni czasu, dzięki czemu nic nie ginie, a kilka osób może bezpiecznie pracować nad tym samym projektem jednocześnie.",
+      "docker": "Narzędzie, które pakuje aplikację razem ze wszystkim, czego potrzebuje do działania, dzięki czemu zachowuje się identycznie na każdym komputerze — rozwiązuje klasyczny problem „u mnie działa”.",
+      "unittesting": "Pisanie małych, automatycznych testów sprawdzających, czy poszczególne fragmenty kodu działają poprawnie — wychwytywanie błędów zanim dotrą do prawdziwego użytkownika.",
+      "technicaldocumentation": "Pisanie jasnych wyjaśnień, jak działa system, aby inni programiści (albo ja sam w przyszłości) mogli go zrozumieć i utrzymać bez odtwarzania wszystkiego od nowa.",
+      "agileteamwork": "Sposób pracy zespołowej, który dzieli duże projekty na małe, zarządzalne kawałki z regularnymi spotkaniami — dzięki temu postęp pozostaje widoczny, a plany mogą się elastycznie zmieniać."
+    }
+  },
+  "projects": {
+    "kicker": "04 — Projekty",
+    "title": "Wybrane realizacje",
+    "subtitle": "Mieszanka aplikacji full-stack, gier i uczenia maszynowego — większość powstała podczas studiów.",
+    "viewCode": "Zobacz kod",
+    "frontend": "Frontend",
+    "backend": "Backend",
+    "inProgress": "W trakcie",
+    "close": "Zamknij",
+    "categories": {
+      "all": "Wszystkie",
+      "web": "Web",
+      "ml": "Uczenie maszynowe",
+      "game": "Gry",
+      "systems": "Systemy"
+    }
+  },
+  "education": {
+    "kicker": "05 — Edukacja",
+    "title": "Wykształcenie",
+    "items": [
+      {
+        "degree": "Informatyka stosowana",
+        "school": "Politechnika Warszawska",
+        "period": "2026 — obecnie",
+        "description": "Kontynuuję naukę, koncentrując się na praktycznym zastosowaniu informatyki w realnych problemach inżynierskich, rozwijając fundamenty zdobyte na studiach licencjackich."
+      },
+      {
+        "degree": "Inżynier informatyki",
+        "school": "Polsko-Japońska Akademia Technik Komputerowych, Warszawa",
+        "period": "2022 — 2026",
+        "description": "Program obejmował projektowanie obiektowe, algorytmy i struktury danych, relacyjne bazy danych, systemy operacyjne, sieci komputerowe oraz matematykę dyskretną. Projekty zespołowe nauczyły mnie projektować, dokumentować i prezentować oprogramowanie tak, jak robi to prawdziwy zespół inżynierski."
+      }
+    ]
+  },
+  "contact": {
+    "kicker": "06 — Kontakt",
+    "title": "Zbudujmy coś razem",
+    "subtitle": "Szukam roli junior lub graduate developera, w której będę mógł dalej szybko się rozwijać. Jeśli to pasuje do Twojego zespołu, chętnie porozmawiam.",
+    "emailLabel": "Email",
+    "githubLabel": "GitHub",
+    "linkedinLabel": "LinkedIn",
+    "form": {
+      "name": "Imię",
+      "email": "Email",
+      "message": "Wiadomość",
+      "send": "Wyślij wiadomość",
+      "sending": "Wysyłanie...",
+      "success": "Dziękuję — odezwę się wkrótce.",
+      "error": "Coś poszło nie tak. Napisz do mnie bezpośrednio na email."
+    }
+  },
+  "footer": {
+    "tagline": "Zaprojektowane i zbudowane w React, TypeScript i Framer Motion.",
+    "rights": "Wszelkie prawa zastrzeżone.",
+    "backToTop": "Powrót do góry"
+  }
+}
