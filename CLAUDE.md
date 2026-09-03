@@ -74,9 +74,15 @@ If asked to reorder, remember this was intentional, not an oversight.
   it reads as the "1" side of a die. Press and hold it for 1.2s and the pip grows until it swallows the face,
   then a circle floods the viewport and the theme flips. It replaced the "Java" label; Java is still listed
   in the Skills section.
-  - The glyph is deliberately the **inverse** of `ThemeToggle`'s: the nav toggle shows the theme you are in
-    (`☾` in dark), the pip shows the theme you'd get (`☀` in dark). The pip is a promise, not a status.
+  - The icon is deliberately the **inverse** of `ThemeToggle`'s: the nav toggle shows the theme you are in
+    (moon in dark), the pip shows the theme you'd get (sun in dark). The pip is a promise, not a status.
     Don't "fix" the inconsistency.
+- **`ThemeIcons.tsx`**: the sun/moon in `ThemeToggle` and on the cube pip are inline SVG, not the `☀`/`☾`
+  glyphs they started as. U+2600 carries `Emoji=Yes`, so iOS Safari resolves it through Apple Color Emoji and
+  paints a yellow sun that ignores `color` — reported on an iPhone, and very visible on a monochrome site.
+  The usual fix is the U+FE0E text-presentation selector, but iOS ignores it for this character, so the font
+  dependency is gone instead. Both icons inherit `currentColor` and are sized in `em`, so callers still
+  control them with plain text-colour and font-size utilities. Don't swap them back to glyphs.
   - `THEME_FACE_INDEX` in `TechCube.tsx` must stay in sync with the `null` entry in that file's `FACES`
     array — `CubeBackdrop` matches against it to decide whether the pip is the face you're looking at.
   - Which face is front is computed as **maths, not hit-testing** (`faceDepths()`): the visual cube is

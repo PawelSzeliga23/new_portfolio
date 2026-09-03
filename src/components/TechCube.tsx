@@ -1,5 +1,6 @@
 import { motion, useTransform, type MotionValue } from "framer-motion";
 import { useTheme } from "../context/ThemeContext";
+import { MoonIcon, SunIcon } from "./ThemeIcons";
 
 // `null` marks the theme face: instead of a tech label it carries a single centred pip,
 // like the "1" side of a die. Its position in this array is the face index, and
@@ -41,8 +42,8 @@ function ThemeFace({ holdProgress }: { holdProgress: MotionValue<number> }) {
       {/* Deliberately the opposite of ThemeToggle, which shows the theme you are *in*. The
           pip is a promise of what holding it does, so in light mode it shows the moon
           ("hold this and it becomes night") and in dark mode the sun. */}
-      <span className="relative text-lg leading-none text-[var(--inverse-fg)]">
-        {theme === "dark" ? "☀" : "☾"}
+      <span className="relative text-[19px] leading-none text-[var(--inverse-fg)]">
+        {theme === "dark" ? <SunIcon /> : <MoonIcon />}
       </span>
     </div>
   );
