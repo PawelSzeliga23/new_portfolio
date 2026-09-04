@@ -198,6 +198,7 @@
     "emailLabel": "Email",
     "githubLabel": "GitHub",
     "linkedinLabel": "LinkedIn",
+    "cvLabel": "Download CV",
     "form": {
       "name": "Name",
       "email": "Email",

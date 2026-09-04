@@ -7,6 +7,8 @@ import MagneticButton from "./MagneticButton";
 const EMAIL = "p.szeliga.dev@gmail.com";
 const GITHUB = "https://github.com/PawelSzeliga23";
 const LINKEDIN = encodeURI("https://www.linkedin.com/in/paweł-szeliga");
+const CV_PL = "/cv/Pawel_Szeliga_CV_JuniorDeveloper_PL.pdf";
+const CV_EN = "/cv/Pawel_Szeliga_CV_JuniorDeveloper_EN.pdf";
 
 export default function Contact() {
   const { t } = useTranslation();
@@ -51,6 +53,29 @@ export default function Contact() {
               linkedin.com/in/paweł-szeliga
             </div>
           </a>
+          <div>
+            <div className="font-mono text-xs uppercase tracking-[0.15em] text-[var(--muted)]">
+              {t("contact.cvLabel")}
+            </div>
+            <div className="mt-2 flex gap-3">
+              <a
+                href={CV_PL}
+                download
+                data-cursor-hover
+                className="rounded-full border border-[var(--border-strong)] px-4 py-1.5 font-mono text-xs uppercase tracking-wide text-[var(--fg)] transition-colors hover:bg-[var(--surface)]"
+              >
+                PL
+              </a>
+              <a
+                href={CV_EN}
+                download
+                data-cursor-hover
+                className="rounded-full border border-[var(--border-strong)] px-4 py-1.5 font-mono text-xs uppercase tracking-wide text-[var(--fg)] transition-colors hover:bg-[var(--surface)]"
+              >
+                EN
+              </a>
+            </div>
+          </div>
         </div>
 
         <form onSubmit={handleSubmit} className="md:col-span-3 space-y-5">
